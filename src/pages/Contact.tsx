@@ -25,7 +25,8 @@ const Contact = () => {
         <div className="section-container text-center">
           <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Contact Us</h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-            Have questions? We're here to help. Reach out to our team anytime.
+            For product inquiries, dealer information, or general questions, feel free to
+            get in touch with our team.
           </p>
         </div>
       </section>
@@ -34,49 +35,66 @@ const Contact = () => {
       <section className="py-12 bg-card border-b border-border">
         <div className="section-container">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+
             <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
                 <Phone className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-bold text-foreground mb-1">Call Us</h3>
-                <p className="text-muted-foreground">Toll Free: 1800-123-456</p>
-                <p className="text-muted-foreground">+91 40 1234 5678</p>
+                <h3 className="font-bold text-foreground mb-1">Phone</h3>
+                <a
+                  href="tel:07541013162"
+                  className="text-muted-foreground hover:text-primary"
+                >
+                  07541 013162
+                </a>
               </div>
             </div>
+
             <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
                 <Mail className="h-6 w-6 text-primary" />
               </div>
               <div>
-                <h3 className="font-bold text-foreground mb-1">Email Us</h3>
-                <p className="text-muted-foreground">info@Harsidhi Biotech.com</p>
-                <p className="text-muted-foreground">support@Harsidhi Biotech.com</p>
+                <h3 className="font-bold text-foreground mb-1">Email</h3>
+                <a
+                  href="mailto:info@harsidhibiotech.com"
+                  className="text-muted-foreground hover:text-primary"
+                >
+                  info@harsidhibiotech.com
+                </a>
               </div>
             </div>
+
             <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
                 <MapPin className="h-6 w-6 text-primary" />
               </div>
               <div>
                 <h3 className="font-bold text-foreground mb-1">Head Office</h3>
-                <p className="text-muted-foreground">Industrial Area Phase II</p>
-                <p className="text-muted-foreground">Hyderabad, TS 500032</p>
+                <p className="text-muted-foreground">
+                  A/18, Mauryalok Complex<br />
+                  Dakbunglow Road<br />
+                  Patna - 800001, Bihar
+                </p>
               </div>
             </div>
+
             <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center flex-shrink-0">
+              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
                 <Clock className="h-6 w-6 text-primary" />
               </div>
               <div>
                 <h3 className="font-bold text-foreground mb-1">Working Hours</h3>
-                <p className="text-muted-foreground">Mon - Sat: 9AM - 6PM</p>
-                <p className="text-muted-foreground">Sunday: Closed</p>
+                <p className="text-muted-foreground">Monday - Saturday</p>
+                <p className="text-muted-foreground">9:00 AM - 6:00 PM</p>
               </div>
             </div>
+
           </div>
         </div>
       </section>
+
 
       {/* Form Section */}
       <section className="section-padding">
@@ -86,7 +104,8 @@ const Contact = () => {
             <div>
               <h2 className="text-3xl font-bold text-foreground mb-2">Send Us a Message</h2>
               <p className="text-muted-foreground mb-8">
-                Fill out the form below and our team will get back to you within 24 hours
+                Fill out the form below and our team will review your message and respond as
+                appropriate.
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -186,7 +205,7 @@ const Contact = () => {
       </section>
 
       {/* Quick Help */}
-      <section className="section-padding bg-secondary/30">
+      {/* <section className="section-padding bg-secondary/30">
         <div className="section-container">
           <div className="bg-card rounded-2xl border border-border p-8 md:p-12">
             <div className="grid md:grid-cols-2 gap-8 items-center">
@@ -221,7 +240,7 @@ const Contact = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </Layout>
   );
 };

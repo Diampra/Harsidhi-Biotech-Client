@@ -3,25 +3,30 @@ import { Shield, FlaskConical, Users, TrendingUp } from "lucide-react";
 const highlights = [
   {
     icon: Shield,
-    title: "Quality Assured",
-    description: "ISO 9001 certified manufacturing with rigorous quality control at every step",
+    title: "Quality-Focused Manufacturing",
+    description:
+      "Controlled production processes supported by SCADA-based fermentation and in-house quality monitoring.",
   },
   {
     icon: FlaskConical,
-    title: "Research Backed",
-    description: "Products developed through extensive field trials and soil research",
+    title: "Science-Based Products",
+    description:
+      "Biofertilizers and biostimulants developed using biological research and controlled formulation practices.",
   },
   {
     icon: Users,
-    title: "Farmer Trust",
-    description: "Trusted by over 50,000 farmers across 28 Indian states",
+    title: "Farmer-Oriented Approach",
+    description:
+      "Products designed to support soil health, crop nutrition, and sustainable agricultural practices.",
   },
   {
     icon: TrendingUp,
-    title: "Higher Yield",
-    description: "Proven to increase crop yield by 25-40% across various crops",
+    title: "Sustainable Agriculture",
+    description:
+      "Biological inputs aimed at improving nutrient availability and long-term soil productivity.",
   },
 ];
+
 
 export function HighlightsSection() {
   return (
@@ -32,7 +37,8 @@ export function HighlightsSection() {
             Why Choose Harsidhi Biotech?
           </h2>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            We are committed to helping Indian farmers achieve better yields through quality products and expert support
+            A science-driven agro-biotechnology manufacturer focused on quality,
+            consistency, and sustainable agricultural solutions.
           </p>
         </div>
 

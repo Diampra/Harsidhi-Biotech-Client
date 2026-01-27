@@ -100,9 +100,12 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <Phone className="h-5 w-5 text-primary mt-0.5" />
                 <div>
-                  <p className="font-medium">Toll Free</p>
-                  <a href="tel:1800123456" className="text-gray-600 dark:text-gray-400 hover:text-primary">
-                    1800-123-456
+                  <p className="font-medium">Phone</p>
+                  <a
+                    href="tel:07541013162"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary"
+                  >
+                    07541 013162
                   </a>
                 </div>
               </li>
@@ -111,8 +114,11 @@ export function Footer() {
                 <Mail className="h-5 w-5 text-primary mt-0.5" />
                 <div>
                   <p className="font-medium">Email</p>
-                  <a href="mailto:info@HarsidhiBiotech.com" className="text-gray-600 dark:text-gray-400 hover:text-primary">
-                    info@HarsidhiBiotech.com
+                  <a
+                    href="mailto:info@harsidhibiotech.com"
+                    className="text-gray-600 dark:text-gray-400 hover:text-primary"
+                  >
+                    info@harsidhibiotech.com
                   </a>
                 </div>
               </li>
@@ -122,12 +128,15 @@ export function Footer() {
                 <div>
                   <p className="font-medium">Head Office</p>
                   <p className="text-gray-600 dark:text-gray-400">
-                    Industrial Area, Hyderabad<br />Telangana 500032
+                    A/18, Mauryalok Complex,<br />
+                    Dakbunglow Road,<br />
+                    Patna - 800001, Bihar
                   </p>
                 </div>
               </li>
             </ul>
           </div>
+
         </div>
 
         {/* Bottom Bar */}

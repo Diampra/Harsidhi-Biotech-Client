@@ -10,7 +10,7 @@ const navigation = [
   { name: "Products", href: "/products" },
   // { name: "Crop Solutions", href: "/crop-solutions" },
   // { name: "Quality", href: "/quality" },
-  { name: "Dealers", href: "/dealers" },
+  // { name: "Dealers", href: "/dealers" },
   { name: "Blog", href: "/blog" },
   { name: "Contact", href: "/contact" },
 ];

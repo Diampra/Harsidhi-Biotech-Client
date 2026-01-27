@@ -84,7 +84,7 @@ const Blog = () => {
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-colors ${
                   category === "All"
                     ? "bg-primary text-primary-foreground"
-                    : "bg-secondary text-secondary-foreground hover:bg-secondary/80"
+                    : "bg-primary/10 text-primary hover:bg-primary/20 hover:text-primary"
                 }`}
               >
                 {category}
