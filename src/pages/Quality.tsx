@@ -2,36 +2,60 @@ import { Layout } from "@/components/layout/Layout";
 import { Shield, Beaker, Award, CheckCircle2, Microscope, FileCheck } from "lucide-react";
 
 const certifications = [
-  { name: "ISO 9001:2015", description: "Quality Management System" },
-  { name: "FCO Certified", description: "Fertilizer Control Order" },
-  { name: "BIS Marked", description: "Bureau of Indian Standards" },
-  { name: "FSSAI Approved", description: "Food Safety Standards" },
-  { name: "ISO 14001", description: "Environmental Management" },
-  { name: "OHSAS 18001", description: "Occupational Health & Safety" },
+  {
+    name: "Fertilizer Control Order (FCO)",
+    description: "Manufacturing and products aligned with Government of India fertilizer regulations"
+  },
+  {
+    name: "SCADA-Based Production",
+    description: "Automated fermentation and controlled production environment"
+  },
+  {
+    name: "In-House Laboratory",
+    description: "Quality testing and monitoring within company laboratory facilities"
+  },
+  {
+    name: "Standard Operating Procedures",
+    description: "Defined manufacturing and quality control processes across production stages"
+  },
+  {
+    name: "Batch Traceability",
+    description: "Controlled documentation from raw materials to finished products"
+  },
+  {
+    name: "Safe Handling Practices",
+    description: "Operational safety and hygiene protocols within manufacturing units"
+  },
 ];
+
 
 const processes = [
   {
     icon: Beaker,
-    title: "Raw Material Testing",
-    description: "Every batch of raw materials is tested for purity, nutrient content, and contaminants before processing",
+    title: "Raw Material Evaluation",
+    description:
+      "Raw materials are assessed before use to ensure suitability for biological production processes",
   },
   {
     icon: Microscope,
-    title: "In-Process Quality Control",
-    description: "Continuous monitoring at every production stage ensures consistent product quality",
+    title: "Process Monitoring",
+    description:
+      "SCADA-based systems monitor critical parameters during fermentation and production",
   },
   {
     icon: FileCheck,
-    title: "Finished Product Analysis",
-    description: "Final products undergo comprehensive testing in our NABL-accredited laboratory",
+    title: "Finished Product Testing",
+    description:
+      "Final products are tested in in-house laboratory facilities before packing and dispatch",
   },
   {
     icon: Shield,
-    title: "Quality Assurance",
-    description: "Independent QA team verifies compliance with all national and international standards",
+    title: "Quality Compliance",
+    description:
+      "Manufacturing follows defined operating procedures and applicable regulatory guidelines",
   },
 ];
+
 
 const Quality = () => {
   return (
@@ -39,9 +63,12 @@ const Quality = () => {
       {/* Hero */}
       <section className="hero-section py-16 md:py-20">
         <div className="section-container text-center">
-          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">Quality & Research</h1>
+          <h1 className="text-4xl md:text-5xl font-extrabold mb-4">
+            Quality & Research
+          </h1>
           <p className="text-xl text-primary-foreground/80 max-w-2xl mx-auto">
-            Committed to delivering the highest quality products through rigorous testing and continuous innovation
+            Quality-controlled manufacturing and science-based processes supporting
+            reliable biofertilizers and biostimulants for sustainable agriculture.
           </p>
         </div>
       </section>
@@ -55,17 +82,28 @@ const Quality = () => {
                 Our Promise
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Quality You Can Trust
+                Commitment to Quality Manufacturing
               </h2>
+
               <p className="text-lg text-muted-foreground mb-6">
-                At Harsidhi Biotech, quality is not just a standard—it's our foundation. Every product that leaves our facility is the result of meticulous research, rigorous testing, and unwavering commitment to farmer success.
+                At Harsidhi Biotech, quality is maintained through controlled manufacturing
+                practices, standardized procedures, and continuous monitoring across
+                production stages.
               </p>
+
               <p className="text-lg text-muted-foreground mb-8">
-                Our state-of-the-art laboratories and experienced scientists ensure that every fertilizer meets the exact specifications promised on the label, giving farmers confidence in every application.
+                The company operates SCADA-automated fermentation systems supported by
+                laboratory testing to ensure consistency, stability, and compliance with
+                applicable agricultural standards.
               </p>
               
               <div className="space-y-4">
-                {["100% guaranteed nutrient content", "Third-party verified quality", "Consistent batch-to-batch quality", "Traceable from source to farm"].map((item, index) => (
+                {[
+  "Controlled fermentation and production processes",
+  "In-house laboratory testing and monitoring",
+  "Batch-wise production and documentation",
+  "Compliance-oriented manufacturing practices",
+].map((item, index) => (
                   <div key={index} className="flex items-center gap-3">
                     <CheckCircle2 className="h-5 w-5 text-primary flex-shrink-0" />
                     <span className="text-foreground font-medium">{item}</span>
@@ -126,30 +164,40 @@ const Quality = () => {
                 Research & Innovation
               </span>
               <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-6">
-                Science-Driven Solutions
+                Science-Led Product Development
               </h2>
+
               <p className="text-lg text-muted-foreground mb-6">
-                Our dedicated R&D team of agronomists, soil scientists, and plant nutrition experts work continuously to develop innovative products that address the evolving needs of Indian agriculture.
+                Research and development at Harsidhi Biotech focuses on biological efficiency,
+                microbial performance, and product stability under Indian agricultural
+                conditions.
               </p>
-              
+
+              <p className="text-lg text-muted-foreground mb-8">
+                Product development is supported by laboratory evaluation, controlled
+                fermentation trials, and field-level feedback to improve formulation
+                reliability and consistency.
+              </p>
+
               <div className="grid grid-cols-2 gap-4">
                 <div className="info-card text-center">
-                  <p className="text-3xl font-bold text-primary">50+</p>
-                  <p className="text-sm text-muted-foreground">Scientists & Researchers</p>
+                  <p className="text-2xl font-bold text-primary">SCADA</p>
+                  <p className="text-sm text-muted-foreground">Automated Fermentation</p>
                 </div>
                 <div className="info-card text-center">
-                  <p className="text-3xl font-bold text-primary">1000+</p>
-                  <p className="text-sm text-muted-foreground">Field Trials Yearly</p>
+                  <p className="text-2xl font-bold text-primary">In-House</p>
+                  <p className="text-sm text-muted-foreground">Laboratory Testing</p>
                 </div>
                 <div className="info-card text-center">
-                  <p className="text-3xl font-bold text-primary">15</p>
-                  <p className="text-sm text-muted-foreground">Research Labs</p>
+                  <p className="text-2xl font-bold text-primary">Controlled</p>
+                  <p className="text-sm text-muted-foreground">Production Environment</p>
                 </div>
                 <div className="info-card text-center">
-                  <p className="text-3xl font-bold text-primary">200+</p>
-                  <p className="text-sm text-muted-foreground">Patents Filed</p>
+                  <p className="text-2xl font-bold text-primary">Biological</p>
+                  <p className="text-sm text-muted-foreground">Input Development</p>
                 </div>
               </div>
+
             </div>
           </div>
         </div>
@@ -160,10 +208,11 @@ const Quality = () => {
         <div className="section-container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              Our Certifications
+              Standards & Compliance
             </h2>
             <p className="text-lg text-primary-foreground/80 max-w-2xl mx-auto">
-              Recognized and certified by leading national and international standards bodies
+              Manufacturing practices aligned with regulatory guidelines and controlled
+              production standards.
             </p>
           </div>
           
