@@ -32,68 +32,80 @@ const Contact = () => {
       </section>
 
       {/* Contact Info */}
-      <section className="py-12 bg-card border-b border-border">
-        <div className="section-container">
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
+<section className="py-12 bg-card border-b border-border">
+  <div className="section-container">
+    <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
 
-            <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                <Phone className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-bold text-foreground mb-1">Phone</h3>
-                <a
-                  href="tel:07541013162"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  07541 013162
-                </a>
-              </div>
-            </div>
-
-            <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                <Mail className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-bold text-foreground mb-1">Email</h3>
-                <a
-                  href="mailto:info@harsidhibiotech.com"
-                  className="text-muted-foreground hover:text-primary"
-                >
-                  info@harsidhibiotech.com
-                </a>
-              </div>
-            </div>
-
-            <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                <MapPin className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-bold text-foreground mb-1">Head Office</h3>
-                <p className="text-muted-foreground">
-                  A/18, Mauryalok Complex<br />
-                  Dakbunglow Road<br />
-                  Patna - 800001, Bihar
-                </p>
-              </div>
-            </div>
-
-            <div className="info-card flex items-start gap-4">
-              <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
-                <Clock className="h-6 w-6 text-primary" />
-              </div>
-              <div>
-                <h3 className="font-bold text-foreground mb-1">Working Hours</h3>
-                <p className="text-muted-foreground">Monday - Saturday</p>
-                <p className="text-muted-foreground">9:00 AM - 6:00 PM</p>
-              </div>
-            </div>
-
-          </div>
+      {/* Phone */}
+      <div className="info-card flex items-start gap-4">
+        <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
+          <Phone className="h-6 w-6 text-primary" />
         </div>
-      </section>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Phone</h3>
+          <p className="text-muted-foreground">97084-54755</p>
+          <p className="text-muted-foreground">83406-58679</p>
+          <p className="text-muted-foreground">98012-39177</p>
+          <p className="text-muted-foreground">94710-06334</p>
+        </div>
+      </div>
+
+      {/* Email */}
+      <div className="info-card flex items-start gap-4">
+        <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
+          <Mail className="h-6 w-6 text-primary" />
+        </div>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Email</h3>
+          <a
+            href="mailto:harsidhibiotech@gmail.com"
+            className="block text-muted-foreground hover:text-primary"
+          >
+            harsidhibiotech@gmail.com
+          </a>
+          <a
+            href="mailto:info@harsidhibiotech.com"
+            className="block text-muted-foreground hover:text-primary"
+          >
+            info@harsidhibiotech.com
+          </a>
+        </div>
+      </div>
+
+      {/* Registered Office */}
+      <div className="info-card flex items-start gap-4">
+        <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
+          <MapPin className="h-6 w-6 text-primary" />
+        </div>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Registered Office</h3>
+          <p className="text-muted-foreground">
+            Sonbarsa, Via-Harsidhi<br />
+            East Champaran, Bihar<br />
+            PIN - 845422
+          </p>
+        </div>
+      </div>
+
+      {/* Corporate Office */}
+      <div className="info-card flex items-start gap-4">
+        <div className="h-12 w-12 rounded-xl bg-primary/10 flex items-center justify-center">
+          <MapPin className="h-6 w-6 text-primary" />
+        </div>
+        <div>
+          <h3 className="font-bold text-foreground mb-1">Corporate Office</h3>
+          <p className="text-muted-foreground">
+            A/18, Mauryalok Complex<br />
+            Dakbunglow, Patna<br />
+            Bihar - 800001
+          </p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
 
 
       {/* Form Section */}

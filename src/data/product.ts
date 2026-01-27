@@ -31,7 +31,7 @@ export const products = [
     description:
       "Combination insecticide containing Chlorpyriphos 50% and Cypermethrin 5% for broad spectrum pest control.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Sugarcane", "Pulses", "Oilseeds", "Fruits", "Vegetables"],
-    dosage: "5–7 kg granules per acre",
+    dosage: "5-7 kg granules per acre",
     packSizes: ["50 ml", "100 ml", "250 ml", "500 ml", "1 kg (GR)"],
   },
 
@@ -43,7 +43,7 @@ export const products = [
     description:
       "Phosphate Solubilizing Bacteria that improves phosphorus availability in soil.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Sugarcane", "Pulses", "Oilseeds", "Fruits", "Vegetables"],
-    dosage: "7–8 kg per acre",
+    dosage: "7-8 kg per acre",
     packSizes: ["1 kg"],
   },
 
@@ -55,7 +55,7 @@ export const products = [
     description:
       "Biological fungicide effective against soil borne diseases and white grub related damage.",
     crops: ["Potato", "Paddy", "Wheat", "Maize", "Fruits", "Vegetables"],
-    dosage: "1–2 g per litre of water",
+    dosage: "1-2 g per litre of water",
     packSizes: ["100 g"],
   },
 
@@ -67,7 +67,7 @@ export const products = [
     description:
       "Activated humic acid with plant growth promoting substances for enhanced root and shoot growth.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Vegetables"],
-    dosage: "2–3 ml per litre of water",
+    dosage: "2-3 ml per litre of water",
     packSizes: ["100 ml", "250 ml", "500 ml", "1 litre"],
   },
 
@@ -79,7 +79,7 @@ export const products = [
     description:
       "Mixture of humic, amino and fulvic acids for better nutrient uptake and stress tolerance.",
     crops: ["Paddy", "Wheat", "Maize", "Sugarcane", "Potato", "Vegetables"],
-    dosage: "2–3 ml per litre of water",
+    dosage: "2-3 ml per litre of water",
     packSizes: ["50 ml", "100 ml", "250 ml", "500 ml"],
   },
 
@@ -115,7 +115,7 @@ export const products = [
     description:
       "Micro sulphur fertilizer for soil application to improve sulphur deficiency.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Garlic", "Tomato", "Vegetables"],
-    dosage: "5–6 kg per acre",
+    dosage: "5-6 kg per acre",
     packSizes: ["1 kg"],
   },
 
@@ -139,7 +139,7 @@ export const products = [
     description:
       "Organic CMS based soil conditioner that enhances soil fertility and microbial activity.",
     crops: ["Maize", "Wheat", "Paddy", "Potato", "Cauliflower", "Vegetables"],
-    dosage: "45–60 kg per acre",
+    dosage: "45-60 kg per acre",
     packSizes: ["25 kg"],
   },
 
