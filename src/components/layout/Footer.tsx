@@ -24,8 +24,17 @@ const footerLinks = {
 
 export function Footer() {
   return (
-    <footer className="bg-gray-100 text-gray-900 dark:bg-card/95 dark:text-gray-200">
-      <div className="section-container section-padding">
+    <footer
+      className="relative bg-gray-100 text-gray-900 dark:bg-card/95 dark:text-gray-200 overflow-hidden bg-cover bg-center bg-no-repeat"
+      style={{
+        backgroundImage: "url('/footer.webp')",
+      }}
+    >
+      <div className="absolute inset-0 bg-white/50" />
+      {/* subtle overlay to keep content readable */}
+      <div className="absolute inset-0 bg-white/60 dark:bg-black/50 -z-0 pointer-events-none" />
+
+      <div className="section-container section-padding relative z-10">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10">
 
           {/* Brand */}

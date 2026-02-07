@@ -4,7 +4,13 @@ import { ArrowRight, Play } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="hero-section relative overflow-hidden">
+    <section className="hero-section relative overflow-hidden"
+          style={{
+        backgroundImage: "url('/highlights.jpg')",
+      }}>
+      {/* Overlay */}
+      <div className="absolute inset-0 bg-black/50" />
+      
       {/* Background Pattern */}
       <div className="absolute inset-0 opacity-10">
         <div className="absolute top-20 left-10 w-64 h-64 rounded-full bg-primary-foreground blur-3xl" />
@@ -27,7 +33,7 @@ export function HeroSection() {
             </h1>
             
             <p className="text-lg md:text-xl text-primary-foreground/80 mb-8 max-w-xl mx-auto lg:mx-0">
-              Premium quality fertilizers and agricultural inputs to boost your crop yield and improve soil health. Backed by 40+ years of research.
+              Premium quality fertilizers and agricultural inputs to boost your crop yield and improve soil health. Backed by 13+ years of research.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
@@ -48,11 +54,11 @@ export function HeroSection() {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-6 mt-12 pt-12 border-t border-primary-foreground/20">
               <div>
-                <p className="text-3xl md:text-4xl font-bold text-accent">40+</p>
+                <p className="text-3xl md:text-4xl font-bold text-accent">13+</p>
                 <p className="text-sm text-primary-foreground/70">Years Experience</p>
               </div>
               <div>
-                <p className="text-3xl md:text-4xl font-bold text-accent">500+</p>
+                <p className="text-3xl md:text-4xl font-bold text-accent">50+</p>
                 <p className="text-sm text-primary-foreground/70">Product Range</p>
               </div>
               <div>
@@ -67,7 +73,7 @@ export function HeroSection() {
             <div className="relative aspect-square">
               <div className="absolute inset-0 rounded-3xl bg-gradient-to-br from-primary-foreground/20 to-transparent" />
               <img
-                src="https://images.unsplash.com/photo-1500937386664-56d1dfef3854?w=800&auto=format&fit=crop"
+                src="/hero.jpg"
                 alt="Healthy green crops in farm field"
                 className="w-full h-full object-cover rounded-3xl"
               />
