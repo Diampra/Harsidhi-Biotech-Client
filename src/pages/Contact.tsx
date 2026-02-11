@@ -12,11 +12,30 @@ const Contact = () => {
     message: "",
   });
 
-  const handleSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Thank you for contacting us! We'll respond within 24 hours.");
-  };
+const handleSubmit = (e: React.FormEvent) => {
+  e.preventDefault();
+
+  const phoneNumber = "919801239177"; 
+
+  const whatsappMessage = `
+New Inquiry from Website:
+
+Name: ${formData.name}
+Phone: ${formData.phone}
+Email: ${formData.email || "Not provided"}
+Subject: ${formData.subject}
+
+Message:
+${formData.message}
+  `;
+
+  const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(
+    whatsappMessage
+  )}`;
+
+  window.open(url, "_blank");
+};
+
 
   return (
     <Layout>

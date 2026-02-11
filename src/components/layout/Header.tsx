@@ -7,6 +7,7 @@ import { ThemeToggle } from "@/components/ThemeToggle";
 const navigation = [
   { name: "Home", href: "/" },
   { name: "About Us", href: "/about" },
+  { name: "Services", href: "/services" },
   { name: "Products", href: "/products" },
   // { name: "Crop Solutions", href: "/crop-solutions" },
   // { name: "Quality", href: "/quality" },
@@ -25,7 +26,7 @@ export function Header() {
         <div className="flex h-20 items-center justify-between">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-logoBackground/30">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-logoBackground/05">
               <img src="/logo.png" alt="Harsidhi Biotech" className="h-14 md:h-14" />
             </div>
             <div className="flex flex-col">

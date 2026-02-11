@@ -3,7 +3,7 @@ export const products = [
     id: "bio-npk",
     name: "BIO NPK (Bio Fertiliser)",
     category: "Bio Fertilizer",
-    image: "/products/bio-npk.jpg",
+    image: "/assets/products/bio-npk.jpg",
     description:
       "Water soluble NPK based bio fertiliser for balanced nutrition and improved crop growth.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Sugarcane", "Fruits", "Flowers", "Vegetables", "All crops"],
@@ -15,7 +15,7 @@ export const products = [
     id: "magic-drop",
     name: "Magic Drop (Silicone Spreader)",
     category: "Adjuvant",
-    image: "/products/magic-drop.jpg",
+    image: "/assets/products/magic-drop.jpg",
     description:
       "Silicone based super spreader and sticker used with all agrochemical sprays for better coverage.",
     crops: ["All crops"],
@@ -27,7 +27,7 @@ export const products = [
     id: "bahubali-505",
     name: "Bahubali-505",
     category: "Plant Protection",
-    image: "/products/bahubali-505.jpg",
+    image: "/assets/products/bahubali-505.jpg",
     description:
       "Combination insecticide containing Chlorpyriphos 50% and Cypermethrin 5% for broad spectrum pest control.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Sugarcane", "Pulses", "Oilseeds", "Fruits", "Vegetables"],
@@ -39,7 +39,7 @@ export const products = [
     id: "phosbac-p",
     name: "Phosbac-P (PSB)",
     category: "Bio Fertilizer",
-    image: "/products/phosbac-p.jpg",
+    image: "/assets/products/phosbac-p.jpg",
     description:
       "Phosphate Solubilizing Bacteria that improves phosphorus availability in soil.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Sugarcane", "Pulses", "Oilseeds", "Fruits", "Vegetables"],

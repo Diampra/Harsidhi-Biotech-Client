@@ -69,6 +69,85 @@ const About = () => {
           </p>
         </div>
       </section>
+{/* ================= CHAIRMAN MESSAGE ================= */}
+<section className="section-padding bg-secondary/30">
+  <div className="section-container max-w-6xl">
+
+    <div className="text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+        Chairman's Message
+      </h2>
+    </div>
+
+    <div className="grid lg:grid-cols-3 gap-12 items-start">
+
+      {/* Chairman Image */}
+      <div className="lg:col-span-1 text-center">
+        <img
+          src="/assets/chairman.webp"
+          alt="Shri Awadhesh Prasad Kushwaha"
+          className="w-72 h-80 mx-auto object-cover rounded-2xl shadow-lg"
+        />
+        <h3 className="mt-6 text-xl font-bold text-foreground">
+          Shri Awadhesh Prasad Kushwaha
+        </h3>
+        <p className="text-muted-foreground">
+          Ex. Minister, Govt. of Bihar
+        </p>
+      </div>
+
+      {/* Message Content */}
+      <div className="lg:col-span-2 space-y-6 text-muted-foreground leading-relaxed">
+
+        <p>
+          India in true sense remains an agricultural economy and the mainstay
+          of a majority of its population. Agriculture directly or indirectly
+          employs the largest section of the workforce and feeds billions of
+          people across the globe.
+        </p>
+
+        <p>
+          With ever-changing global dynamics, environmental challenges, and
+          climate change, the needs of agriculture are also evolving. The
+          rising cost of fossil fuels has made chemical fertilizers a burden
+          for growing economies. Moreover, excessive chemical use for crop
+          productivity and protection has begun harming soil health and
+          long-term sustainability.
+        </p>
+
+        <p>
+          It is time we reform our agricultural practices and transition
+          toward organic and biological solutions. Such measures will
+          preserve soil fertility, protect beneficial microorganisms,
+          and prevent irreversible damage to Mother Earth.
+        </p>
+
+        <p>
+          Harsidhi Biotech (India) Pvt. Ltd. is an initiative in this
+          direction. Having been an agriculturist for over five decades,
+          I have witnessed firsthand the transformation in farming
+          practices. With this experience and a strong vision, we aim
+          to become a leading organic and biological agri-input
+          manufacturer in the Indian subcontinent.
+        </p>
+
+        <p>
+          Our mission remains a constant endeavor to deliver value
+          through innovation, consistent quality control, and crop-
+          specific solutions that are both soil-friendly and economically
+          viable for farmers.
+        </p>
+
+        <blockquote className="border-l-4 border-primary pl-6 text-lg font-semibold text-foreground">
+          “ स्वस्थ मिट्टी, संपन्न किसान - तभी बढ़ेगा हिंदुस्तान ”
+        </blockquote>
+
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
       {/* Our Story */}
       <section className="section-padding">

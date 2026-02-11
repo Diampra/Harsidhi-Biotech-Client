@@ -13,6 +13,7 @@ import Dealers from "./pages/Dealers";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import Services from "./pages/Services";
 
 const queryClient = new QueryClient();
 
@@ -29,6 +30,7 @@ const App = () => (
           {/* <Route path="/products/:id" element={<ProductDetail />} /> */}
           <Route path="/crop-solutions" element={<CropSolutions />} />
           <Route path="/quality" element={<Quality />} />
+          <Route path="/services" element={<Services />} />
           <Route path="/dealers" element={<Dealers />} />
           <Route path="/blog" element={<Blog />} />
           <Route path="/contact" element={<Contact />} />
