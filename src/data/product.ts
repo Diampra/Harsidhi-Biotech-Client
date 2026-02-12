@@ -51,7 +51,7 @@ export const products = [
     id: "bio-suraksha",
     name: "Bio Suraksha",
     category: "Plant Protection",
-    image: "/products/bio-suraksha.jpg",
+    image: "/assets/products/bio-suraksha.jpg",
     description:
       "Biological fungicide effective against soil borne diseases and white grub related damage.",
     crops: ["Potato", "Paddy", "Wheat", "Maize", "Fruits", "Vegetables"],
@@ -63,7 +63,7 @@ export const products = [
     id: "kalasona",
     name: "Super KalaSona",
     category: "Growth Promoter",
-    image: "/products/kalasona.jpg",
+    image: "/assets/products/kalasona.jpg",
     description:
       "Activated humic acid with plant growth promoting substances for enhanced root and shoot growth.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Vegetables"],
@@ -75,7 +75,7 @@ export const products = [
     id: "moti-gold",
     name: "Moti Gold",
     category: "Growth Promoter",
-    image: "/products/moti-gold.jpg",
+    image: "/assets/products/moti-gold.jpg",
     description:
       "Mixture of humic, amino and fulvic acids for better nutrient uptake and stress tolerance.",
     crops: ["Paddy", "Wheat", "Maize", "Sugarcane", "Potato", "Vegetables"],
@@ -87,7 +87,7 @@ export const products = [
     id: "action-plus",
     name: "Action+",
     category: "Growth Promoter",
-    image: "/products/action-plus.jpg",
+    image: "/assets/products/action-plus.jpg",
     description:
       "Fast action plant growth promoter that improves vegetative growth and flowering.",
     crops: ["Cabbage", "Brinjal", "Potato", "Chilli", "Fruits", "Flowers"],
@@ -99,7 +99,7 @@ export const products = [
     id: "bio-rakshak",
     name: "Bio Rakshak",
     category: "Plant Protection",
-    image: "/products/bio-rakshak.jpg",
+    image: "/assets/products/bio-rakshak.jpg",
     description:
       "Organic plant protectant for improving plant immunity and disease resistance.",
     crops: ["Potato", "Paddy", "Maize", "Vegetables"],
@@ -107,23 +107,23 @@ export const products = [
     packSizes: ["100 ml", "250 ml"],
   },
 
-  {
-    id: "fasal-suraksha",
-    name: "Fasal Suraksha (Micro Sulphur)",
-    category: "Micronutrient",
-    image: "/products/fasal-suraksha.jpg",
-    description:
-      "Micro sulphur fertilizer for soil application to improve sulphur deficiency.",
-    crops: ["Paddy", "Wheat", "Maize", "Potato", "Garlic", "Tomato", "Vegetables"],
-    dosage: "5-6 kg per acre",
-    packSizes: ["1 kg"],
-  },
+  // {
+  //   id: "fasal-suraksha",
+  //   name: "Fasal Suraksha (Micro Sulphur)",
+  //   category: "Micronutrient",
+  //   image: "/products/fasal-suraksha.jpg",
+  //   description:
+  //     "Micro sulphur fertilizer for soil application to improve sulphur deficiency.",
+  //   crops: ["Paddy", "Wheat", "Maize", "Potato", "Garlic", "Tomato", "Vegetables"],
+  //   dosage: "5-6 kg per acre",
+  //   packSizes: ["1 kg"],
+  // },
 
   {
     id: "humi-power",
     name: "Humi Power",
     category: "Growth Promoter",
-    image: "/products/humi-power.jpg",
+    image: "/assets/products/humi-power.jpg",
     description:
       "98% pure humic acid powder for improved soil structure and nutrient absorption.",
     crops: ["Paddy", "Wheat", "Maize", "Potato", "Vegetables"],
@@ -135,7 +135,7 @@ export const products = [
     id: "vasudha-gold",
     name: "Vasudha Gold",
     category: "Organic",
-    image: "/products/vasudha-gold.jpg",
+    image: "/assets/products/vasudha-gold.jpg",
     description:
       "Organic CMS based soil conditioner that enhances soil fertility and microbial activity.",
     crops: ["Maize", "Wheat", "Paddy", "Potato", "Cauliflower", "Vegetables"],
@@ -147,7 +147,7 @@ export const products = [
     id: "vasudha",
     name: "Vasudha (Organic Manure)",
     category: "Organic",
-    image: "/products/vasudha.jpg",
+    image: "/assets/products/vasudha.jpg",
     description:
       "Bio-enriched organic manure that improves soil health and crop productivity.",
     crops: ["Maize", "Paddy", "Potato", "Sugarcane", "Vegetables"],
