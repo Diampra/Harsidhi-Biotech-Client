@@ -13,6 +13,7 @@ const footerLinks = {
     { name: "Quality & Research", href: "/quality" },
     { name: "Careers", href: "/contact" },
     { name: "Blog", href: "/blog" },
+    { name: "Gallery", href: "/gallery" },
   ],
   support: [
     { name: "Dealer Network", href: "/dealers" },

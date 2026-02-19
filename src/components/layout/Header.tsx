@@ -12,7 +12,8 @@ const navigation = [
   // { name: "Crop Solutions", href: "/crop-solutions" },
   // { name: "Quality", href: "/quality" },
   // { name: "Dealers", href: "/dealers" },
-  { name: "Blog", href: "/blog" },
+  // { name: "Blog", href: "/blog" },
+  { name: "Gallery", href: "/gallery" },
   { name: "Contact", href: "/contact" },
 ];
 
