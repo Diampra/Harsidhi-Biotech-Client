@@ -40,17 +40,18 @@ export function Footer() {
 
           {/* Brand */}
           <div className="lg:col-span-2">
-            <Link to="/" className="flex items-center gap-2 mb-6">
-              <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-logoBackground/30">
-                <img src="/logo.png" alt="Harsidhi Biotech" className="h-14 md:h-14" />
-              </div>
-              <div className="flex flex-col">
-                <span className="text-xl font-bold">Harsidhi Biotech</span>
-                <span className="text-xs text-gray-600 dark:text-gray-400">
-                  Fertilizers & Agri Inputs
-                </span>
-              </div>
-            </Link>
+          <Link to="/" className="flex items-center gap-2 mb-6">
+            <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-logoBackground/05">
+              <img src="/logo.png" alt="Harsidhi Biotech" className="h-14 md:h-14" />
+            </div>
+            <div className="flex h-8 w-auto items-center justify-center rounded-xl bg-logoBackground/05 mt-4 mx-2">
+              <img src="/logo_side.png" alt="Harsidhi Biotech" className="h-12 md:h-10" />
+            </div>
+            {/* <div className="flex flex-col">
+              <span className="text-xl font-bold text-foreground">Harsidhi Biotech</span>
+              <span className="text-xs text-muted-foreground">Fertilizers & Agri Inputs</span>
+            </div> */}
+          </Link>
 
             <p className="text-gray-600 dark:text-gray-400 mb-6 max-w-sm">
               Established in 2013, Harsidhi Biotech manufactures biofertilizers and biostimulants to promote sustainable and science-driven agriculture.
@@ -115,7 +116,7 @@ export function Footer() {
                     href="tel:07541013162"
                     className="text-gray-600 dark:text-gray-400 hover:text-primary"
                   >
-                    07541 013162
+                    94710 06334
                   </a>
                 </div>
               </li>
@@ -133,7 +134,7 @@ export function Footer() {
                 </div>
               </li>
 
-              <li className="flex items-start gap-3">
+              {/* <li className="flex items-start gap-3">
                 <MapPin className="h-5 w-5 text-primary mt-0.5" />
                 <div>
                   <p className="font-medium">Head Office</p>
@@ -143,7 +144,7 @@ export function Footer() {
                     Patna - 800001, Bihar
                   </p>
                 </div>
-              </li>
+              </li> */}
             </ul>
           </div>
 
@@ -152,7 +153,7 @@ export function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-8 border-t border-black/10 dark:border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-gray-500 dark:text-gray-400 text-sm">
-            © 2024 Harsidhi Biotech Fertilizers Pvt. Ltd. All rights reserved.
+            © 2026 Harsidhi Biotech Fertilizers Pvt. Ltd. All rights reserved.
           </p>
           <div className="flex gap-6 text-sm">
             <Link to="/privacy" className="text-gray-500 dark:text-gray-400 hover:text-primary">

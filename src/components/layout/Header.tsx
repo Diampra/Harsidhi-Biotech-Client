@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
-import { Menu, X, Leaf, Phone } from "lucide-react";
+import { Menu, X, Leaf, Phone, Download } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { ThemeToggle } from "@/components/ThemeToggle";
 
@@ -30,10 +30,13 @@ export function Header() {
             <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-logoBackground/05">
               <img src="/logo.png" alt="Harsidhi Biotech" className="h-14 md:h-14" />
             </div>
-            <div className="flex flex-col">
+            <div className="flex h-8 w-auto items-center justify-center rounded-xl bg-logoBackground/05 mt-4 mx-2">
+              <img src="/logo_side.png" alt="Harsidhi Biotech" className="h-12 md:h-10" />
+            </div>
+            {/* <div className="flex flex-col">
               <span className="text-xl font-bold text-foreground">Harsidhi Biotech</span>
               <span className="text-xs text-muted-foreground">Fertilizers & Agri Inputs</span>
-            </div>
+            </div> */}
           </Link>
 
           {/* Desktop Navigation */}
@@ -59,9 +62,16 @@ export function Header() {
               1800-123-456
             </a> */}
             <ThemeToggle />
-            <Button asChild>
-              <Link to="/contact">Get Quote</Link>
-            </Button>
+            <a
+              href="/catalog/harsidhi-biotech-product-catalog.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition"
+            >
+              {/* <Download className="h-4 w-4" /> */}
+              Get Catalog
+            </a>
           </div>
 
           {/* Mobile menu button */}
@@ -97,9 +107,16 @@ export function Header() {
               ))}
               <div className="mt-4 pt-4 border-t border-border flex items-center gap-3">
                 <ThemeToggle />
-                <Button asChild className="flex-1">
-                  <Link to="/contact">Get Quote</Link>
-                </Button>
+            <a
+              href="/catalog/harsidhi-biotech-product-catalog.pdf"
+              download
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-primary text-primary-foreground text-sm font-medium hover:bg-primary/90 transition"
+            >
+              {/* <Download className="h-4 w-4" /> */}
+              Get Catalog
+            </a>
               </div>
             </div>
           </div>

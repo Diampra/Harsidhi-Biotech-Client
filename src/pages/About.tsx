@@ -205,7 +205,7 @@ const About = () => {
                 Incorporated in April 2013, Harsidhi Biotech established an ultra-modern
                 fermentation unit with support from financial institutions and the
                 Government of Bihar. Inaugurated in August 2015, the facility is equipped
-                with SCADA-automated fermenters, advanced laboratories, and modern
+                with advanced laboratories, and modern
                 packaging systems. The manufacturing campus spans over 100,000 square
                 feet with a built-up area exceeding 40,000 square feet.
               </p>
@@ -213,7 +213,7 @@ const About = () => {
           </div>
 
           {/* Stats */}
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
+          {/* <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-12">
             <div className="info-card text-center">
               <p className="text-2xl font-bold text-primary">2013</p>
               <p className="text-sm text-muted-foreground">Incorporated</p>
@@ -230,7 +230,7 @@ const About = () => {
               <p className="text-2xl font-bold text-primary">SCADA</p>
               <p className="text-sm text-muted-foreground">Automated Systems</p>
             </div>
-          </div>
+          </div> */}
         </div>
       </section>
 
@@ -258,7 +258,7 @@ const About = () => {
       </section>
 
       {/* Timeline */}
-      <section className="section-padding">
+      {/* <section className="section-padding">
         <div className="section-container">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
@@ -283,7 +283,7 @@ const About = () => {
             ))}
           </div>
         </div>
-      </section>
+      </section> */}
 
       {/* Why Us */}
       <section className="section-padding bg-primary text-primary-foreground">
@@ -296,7 +296,7 @@ const About = () => {
               <div className="space-y-4">
                 {[
                   "In-house manufacturing with controlled fermentation processes",
-                  "SCADA-automated production for consistent quality",
+                  // "SCADA-automated production for consistent quality",
                   "Wide range of biofertilizers and biostimulants",
                   "Modern laboratory and packaging infrastructure",
                   "Regional expertise with pan-India supply capability",

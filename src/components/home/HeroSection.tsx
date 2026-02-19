@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Play, ChevronLeft, ChevronRight } from "lucide-react";
 import { useState, useEffect, useCallback } from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { products } from "@/data/HeroProduct";
+import { heroImages } from "@/data/heroImages";
 
 export function HeroSection() {
   const heroSlides = [
@@ -38,7 +38,7 @@ export function HeroSection() {
 
   const [currentImage, setCurrentImage] = useState(0);
   const [isAutoPlaying, setIsAutoPlaying] = useState(true);
-  const featuredProducts = products.slice(0, 5);
+  const featuredProducts = heroImages.slice(0, 5);
   const [[page, direction], setPage] = useState([0, 0]);
 
   const paginate = (newDirection) => {
@@ -200,15 +200,18 @@ export function HeroSection() {
                   <div className="relative inline-block">
 
                     {/* Product Image */}
+                    <div className="rounded-2xl overflow-hidden">
+
                     <motion.img
                       src={featuredProducts[page].image}
                       alt={featuredProducts[page].name}
                       transition={{ repeat: Infinity, duration: 4 }}
-                      className="h-[220px] sm:h-[260px] lg:h-[340px] object-contain drop-shadow-2xl"
+                      className="h-[220px] sm:h-[260px] lg:h-[340px] object-cover rounded-2xl drop-shadow-2xl"
                     />
+                    </div>
 
                     {/* Enhanced Overlay Button */}
-                    <Link
+                    {/* <Link
                       to="/products"
                       className="absolute -bottom-7 left-1/2 -translate-x-1/2 
                                 px-6 py-3 rounded-lg
@@ -222,7 +225,7 @@ export function HeroSection() {
                         View Details
                         <ArrowRight className="w-4 h-4" />
                       </span>
-                    </Link>
+                    </Link> */}
 
 
 

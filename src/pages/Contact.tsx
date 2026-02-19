@@ -62,10 +62,10 @@ ${formData.message}
         </div>
         <div>
           <h3 className="font-bold text-foreground mb-1">Phone</h3>
+          <p className="text-muted-foreground">94710-06334</p>
           <p className="text-muted-foreground">97084-54755</p>
           <p className="text-muted-foreground">83406-58679</p>
-          <p className="text-muted-foreground">98012-39177</p>
-          <p className="text-muted-foreground">94710-06334</p>
+  
         </div>
       </div>
 
